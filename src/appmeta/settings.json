@@ -1,0 +1,19 @@
+{
+  "format_version": 1,
+  "version": 1,
+  "fields": {
+    "refresh_s": {
+      "type": "integer",
+      "label": "Refresh (sec)",
+      "default": 10,
+      "min": 10,
+      "max": 3600,
+      "step": 1
+    },
+    "show_serial": {
+      "type": "boolean",
+      "label": "Show serial",
+      "default": false
+    }
+  }
+}
