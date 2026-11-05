@@ -1,0 +1,53 @@
+{
+  "captured_at": "2026-11-05T13:52:21.149167+00:00",
+  "application": {
+    "format_version": 1,
+    "id": "app.imalkav.device_dashboard",
+    "name": "Device Dashboard",
+    "version": "0.1.0",
+    "api_version": "27.14.0",
+    "author": "iMalkav",
+    "description": "Battery, connection and firmware information on your BUSY Bar.",
+    "heap_size_kib": 384,
+    "debug": false
+  },
+  "firmware": {
+    "version": "r1051",
+    "target": 21,
+    "branch": "dev",
+    "build_date": "2026-10-30",
+    "commit_hash": "6ee64ba1",
+    "intercom_version": "6ee64ba1",
+    "nwp_version": "1611.2.1.1.255.11.71",
+    "matter_version": "1.0"
+  },
+  "api_version": "27.15.0",
+  "method": "GET /api/screen?display=0 and display=1; base64 decoded and saved as PNG without resizing or retouching",
+  "settings": {
+    "version": 1,
+    "values": {
+      "refresh_s": 10,
+      "show_serial": false
+    }
+  },
+  "inputs": [],
+  "data_note": "Schema default settings.",
+  "fixture": null,
+  "frames": [
+    {
+      "path": "screenshots/front.png",
+      "width": 72,
+      "height": 16,
+      "frame_sha256": "667765e0714dd4cdc6ae204bfbe31d85de3072f45613a7d572373562349d146c",
+      "png_sha256": "9056b188a800cfe4e7b1f42a95049b63605048e991285a898a490a9acc2eb5ad"
+    },
+    {
+      "path": "screenshots/back.png",
+      "width": 160,
+      "height": 80,
+      "frame_sha256": "5a7650e38d5bc62547ec0ba56ad6927cc8262e0172d29d8bda88475eeb61f3b1",
+      "png_sha256": "94f36eb98e22f38ecb1b756557a5506559712ad4b1653bbe55a6dcc5ab03c2ff"
+    }
+  ],
+  "verification": "Installed, launched, captured both displays, then quit via the device API. This is not comprehensive physical-device testing or verification on the latest release firmware."
+}
